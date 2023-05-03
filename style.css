@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(5, 39, 75);
+    transition: 3s ease;
+}
+.again-btn{
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    background-color: rgb(217, 255, 0);
+    box-shadow: 5px 5px 30px black;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 15%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.dice-img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    
+}
+.dice-img img{
+    width: 200px;
+    height: 200px; 
+    
+}
+.hidden{
+    display: none;
+}
+.template{
+    border: 5px white solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 20px rgb(72, 72, 195);
+    
+}
+.template h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    
+}
+.roll{
+    color: rgb(217, 255, 0);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 100px;
+    
+}
+.btns {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(217, 255, 0); 
+    box-shadow: 5px 5px 30px rgb(194, 200, 44);
+    font-size: large;
+    font-weight: 700;
+    border-radius: 15%;
+    margin-top: 20px;
+     
+    
+}
+.again-btn:hover{
+    background-color: rgba(193, 164, 18, 0.771);
+}
+.btns:hover{
+    background-color: rgba(193, 164, 18, 0.771);
+}
+.btns-container{
+    display: flex;
+    margin-left: 45%;
+}
+.box-one h3 {
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    
+}
+.box-two h3 {
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    
+}
+.box-one p {
+text-align: center;
+color: white;
+font-size: 40px;
+margin-top: 20%;
+    
+}
+.box-two p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20%;
+        
+}
